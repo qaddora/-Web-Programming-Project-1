@@ -1,0 +1,19 @@
+.scroll-top-button {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    z-index: 1000;
+    font-size: 1.25rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.scroll-top-button:hover {
+    background-color: var(--secondary);
+    transform: scale(1.1);
+}
